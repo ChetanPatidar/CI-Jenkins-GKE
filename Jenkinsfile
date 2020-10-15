@@ -4,7 +4,7 @@ pipeline {
         PROJECT_ID = 'vmware-training-oct-2020'
         CLUSTER_NAME = 'vmware-cluster-1'
         LOCATION = 'us-central1-c'
-        CREDENTIALS_ID = 'gke'
+        CREDENTIALS_ID = 'GKE'
     }
     stages {
         stage("Checkout code") {
